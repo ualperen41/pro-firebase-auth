@@ -1,16 +1,32 @@
-# React + Vite
+# 🔐 React Firebase Auth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **React**, **Firebase Authentication** ve **Redux Toolkit** kullanılarak geliştirilmiş modern bir kullanıcı kimlik doğrulama uygulamasıdır.  
+Kullanıcılar e-posta ve parola ile kayıt olabilir, giriş yapabilir, profillerini güncelleyebilir ve parolalarını değiştirebilirler.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Ekran Görüntüsü
 
-## React Compiler
+![](./firebaseauth.gif)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Özellikler
 
-## Expanding the ESLint configuration
+- 🔑 E-posta & Parola ile kayıt olma ve giriş yapma
+- 🔓 Oturumu kapatma (logout)
+- 👤 Profil bilgilerini (ad-soyad, fotoğraf) güncelleme
+- 🔒 Parola güncelleme
+- ✉️ E-posta doğrulama gönderimi
+- 🧠 Redux Toolkit ile global kullanıcı durumu yönetimi
+- ⚙️ Firebase Authentication ile güvenli kimlik doğrulama
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Kullanılan Teknolojiler
+
+**React** -- Arayüz oluşturmak için
+
+**Firebase Auth** -- Kimlik doğrulama servisi
+
+**Redux Toolkit** -- Global state yönetimi
+
+**Vite** -- Geliştirme ortamı ve build aracı
+
+**Tailwind CSS / CSS** -- Modern, responsive arayüz tasarımı
